@@ -12,6 +12,10 @@ Run.
 > ###### Note: This script should be used responsibly and only on repositories where you have permission to search. Also, be careful when setting up the access tokens.
 
 #### To delete ?
+> * Clones a remote repository to the local machine.  
+> * Removes the commit history from the repository.  
+> * Renames the default branch to "master".  
+> * Pushes the changes to the remote repository.
 ```
 git clone https://github.com/ExploiTR/FindGitLeak.git
 cd FindGitLeak
@@ -21,4 +25,6 @@ git commit -am "Remove commit history"
 git branch -D master
 git branch -m master
 git push -f origin master
+
 ```
+
