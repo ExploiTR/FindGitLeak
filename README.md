@@ -22,6 +22,3 @@ git branch -D master
 git branch -m master
 git push -f origin master
 ```
-
-### Disclaimer:
-Please use this script responsibly and respect the privacy and security of others. Ensure that you have the necessary permissions to search the repositories. The script is provided as-is without any warranty or guarantee of its effectiveness. Use it at your own risk.
